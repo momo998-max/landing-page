@@ -1,0 +1,304 @@
+nav{
+	background-color: white;
+	height: 110px;
+	width: 100%;
+}
+nav img{
+	border: 4px solid gray;
+	width: 100px;
+	background-color: #ffffff;
+}
+nav ul{
+	float: right;
+	margin-right: 40px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 5px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+.login{
+	background-color:orangered;
+	height:100px;
+	width: 100%;
+}
+.connexion{
+	color: white;
+	text-align: right;
+	margin-right: 200px;
+	font-size: 20px;
+	font-weight: lighter;
+	padding: 5px;
+}
+#second{
+	background-color: rgb(30, 81, 139);
+	height: 400px;
+    text-align: right;
+}
+.tof{
+    width: 1000px;
+    height: 1000px;
+	padding: 60px 40px;
+}
+.img2{
+	width: 350px;
+	margin-top: -15px;
+	border-top: 2px solid rgb(50, 100, 131);
+	border-bottom: 2px solid rgb(50, 100, 131);
+}
+.form1{
+	display: flex;
+	justify-content:center;
+	float: left;
+	align-items: center;
+	background-color:gray;
+	margin-left: 80px;
+}
+.container{
+	display: flex;
+	margin-top: -450px;
+	background-color:white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 400px;
+	height: 350px;
+	justify-content:center;
+	border-radius: 10px;
+}
+.titre{
+	text-align: center;
+}
+.welcome{
+	color: rgb(29, 78, 151);
+	margin: 5px;
+	margin-top: 5px;
+}
+#msgconnect{
+	margin: 5px;
+}
+
+span{
+	color: rgb(0, 119, 255);
+}
+.mail{
+	display: flex;
+	flex-direction: column;
+}
+.mail label{
+	padding: 10px;
+	margin-left: -15px;	
+	margin-top: -15px;
+
+}
+.mail input{
+	margin-bottom: 5px;
+}
+.pass{
+	display: flex;
+	flex-direction: column;
+}
+.pass label{
+	padding: 10px;
+	margin-left: -15px;	
+}
+.check{
+	padding: 10px;
+	margin-left: -20px;
+}
+#forget{
+	color: rgb(0, 153, 255);
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.submit{
+	display: flex;
+	justify-content: right;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+.submit button{
+	background-color: rgb(47, 144, 209);
+	color: white;
+	border: 2px solid rgb(219, 213, 213);
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+}
+#connectwith{
+	text-align: center;
+	margin: 5px;
+}
+.icone{
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+.icone img{
+	display: inline center;
+	align-items: center;
+	width: 25px;
+	cursor: pointer;
+	margin-bottom: -10px;
+}
+.quiz{
+	margin-top: 170px;
+    font-size: 8px;
+    margin-left: 20px;
+    background-color: rgb(216, 218, 221);
+    display: flex;
+    max-width: 1500px;
+	height: 75px;
+    top: -40px;
+    position: relative;
+    border-radius: 10px;
+	padding: 50px;
+	padding-bottom: 20px;
+	
+	border-radius: 10px;
+}
+.boutton{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 50px;
+top: -10px;
+position: relative;
+}
+.boutton label{
+color:rgb(154, 154, 196) ;
+font-size: 10px;
+}
+button{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+border-color: rgb(88, 88, 219);
+font-size: 10px;
+margin-right: 10px;
+}
+h2{
+color: rgb(24, 147, 196);
+text-align: center;
+}
+.contenue{
+text-align: center;
+}
+p{
+text-align: center;
+}
+.question{
+top: 1px;
+font-size: 12px;
+position: relative;
+
+}
+hr{
+position: relative;
+background-color: rgb(245, 147, 111);
+margin: 0 500px 0 500px;
+bottom: 5px;
+padding: 1px 0 1px 0 ;
+
+}
+#button {
+background-color: rgb(15, 86, 192);
+color: white;
+}
+.choix{
+background-color: rgb(236, 85, 31);
+justify-content: center;
+align-items: center;
+display: flex;
+border-radius: 20px;
+max-width: 1600px;
+height: 100px;
+padding: 20px;
+
+}
+label{
+text-align: center;
+
+color: #ffffff;
+font-size: 15px;
+
+}
+input{
+margin-left: 50px;
+margin-top: 10px;
+}
+.styled{
+border: 0;
+color: #ffffff;
+background-color: rgb(17, 98, 180);
+border-radius: 5px;
+font-size: 15px;
+float: right;
+margin-right: 100px;
+top: 20px;
+position: relative;
+text-align: center;
+}
+.styled:hover{
+background-color: blue;
+}
+.rq{
+	text-align: center;
+	margin-top: -25px;
+	}
+
+hr{
+position: relative;
+background-color: rgb(245, 147, 111);
+margin: 0 500px 0 500px;
+bottom: 5px;
+padding: 1px 0 1px 0 ;
+}
+.repquiz{
+	background-color: rgba(255, 255, 255, 0.836);
+	display: flex;	
+	justify-content: space-between;
+	width: 100%;
+	height: 350px;
+}
+fieldset{
+	height: 70px;
+	background-color: rgba(255, 68, 0, 0.466);
+	border-radius: 10px;
+	color: rgb(83, 26, 6);
+	margin-bottom: 10px;
+}
+.fieldtext{
+margin-top: -5px;
+}
+legend{
+	font-weight: bold;
+}
+.field1{
+	width: 400px;
+	height: 70px;
+	margin-top: 15px;
+	margin-left: 150px;
+}
+
+.field2{
+	width: 400px;
+	height: 100px;
+	margin-top: 15px;
+	margin-right: 150px;
+}
+.copyright{
+	background-color: rgb(15, 48, 92);
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right{
+	color: white;
+	font-style: italic;
+}
